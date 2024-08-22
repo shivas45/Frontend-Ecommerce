@@ -1,0 +1,23 @@
+:root{
+    --dark-color: #3074f0;
+    --primary-color: #f7c9d2;
+    --light-color: #f5f5f5;
+    --sucess-color: #8f9295;
+
+}
+
+.Discount {
+    background: var(--primary-color);
+
+}
+.Discount_col1 p{
+    color: #000;
+}
+
+.Discount h1{
+    font-weight: 600;
+}
+
+@media only screen and(min-width: 320px) and (max-width:567px) {
+    
+}

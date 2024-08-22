@@ -1,0 +1,165 @@
+/* .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-details {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .contact-details p {
+    font-size: 1.1em;
+    color: #555;
+  } */
+  
+
+   :root {
+    --dark-color: #3074f0;
+    --primary-color: #f7c9d2;
+    --light-color: #f5f5f5;
+    --success-color: #8f9295;
+  }
+  .contact {
+    padding: 5rem 4rem;
+  }
+  .contact i {
+    font-size: 1.4rem;
+    color: var(--dark-color);
+    padding: 0.4rem 0.6rem;
+    border-radius: 50%;
+    border: 1px solid var(--dark-color);
+  }
+  .contact_sec2 {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    margin: 0 1rem;
+  }
+  .contact_sec2 input {
+    padding: 1rem;
+  }
+  ::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(128, 128, 128) !important;
+  }
+  .contact_sec1 p {
+    text-align: left !important;
+  }
+  .contact_h4 {
+    text-align: left !important;
+  }
+  .contact_sec1 p {
+    font-weight: 400;
+  }
+  .contact_fm_1 {
+    padding: 4rem 1rem;
+    background-color: #fee9e4;
+    margin: 0.8rem;
+  }
+  .contact_fm_2 {
+    padding: 4rem 1rem;
+    background-color: #d3efff;
+    margin: 0.8rem;
+  }
+  .contact_fm_3 {
+    padding: 1rem;
+    background-color: #e7f2ec;
+    margin: 0.8rem;
+  }
+  .contact_fm_3 iframe {
+    width: 100%;
+    height: 250px;
+    padding-top: 1rem;
+  }
+  .contact_sec1 h4 {
+    padding: 0.5rem 0;
+  }
+  .contact_sec1 h6 {
+    font-weight: 400;
+  }
+  .contact_sec2 button {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border: 0;
+    background: var(--primary-color);
+    width: 100%;
+    margin-top: 1.8rem;
+    transition: all 0.3s ease 0s;
+  }
+  .contact_sec2 button:hover {
+    background-color: var(--dark-color);
+    color: #fff;
+  }
+  .contact_sec2 input:focus {
+    border: 2px solid var(--dark-color) !important;
+  }
+  .contact_sec2 textarea:focus {
+    border: 2px solid var(--dark-color) !important;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 476px) {
+    .contact {
+      padding: 5rem 0;
+    }
+    .contact_sec2 {
+      padding: 3rem 1.5rem;
+      margin: 1rem;
+    }
+    .contact h2 {
+        display: none;
+      } 
+    .contact_h4 {
+      display: none;
+    }
+    .contact_sec1 p {
+      text-align: center !important;
+    }
+  } 
